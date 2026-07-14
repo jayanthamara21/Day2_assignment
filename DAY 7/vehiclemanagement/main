@@ -20,6 +20,11 @@ car1.show_info()
 car2.start_engine()
 car2.show_info()
 
+ev1 = EV("Tesla", "Model S", 2022, 100)
+ev1.start_engine()
+ev1.charge_battery()
+
+
 
 
 #Another way to call methods on the objects using a list of cars
